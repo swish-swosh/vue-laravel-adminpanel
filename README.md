@@ -1,4 +1,4 @@
-# vue2-laravel8-adminpanel
+# vue2 / laravel 8 / adminpanel
 Full stack Vue Laravel adminpanel - what I learned 
 
 ![What I learned](/images/logos-vue-laravel.jpg?raw=true)
