@@ -1,0 +1,79 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+// THEMES
+// link alpha %
+$alpha-link: 0.6;
+$alpha-link-hover: 1;
+$alpha-link-active: 0.9;
+
+// DARK
+$color1: #E9ECF2;
+$color2: #141C26;
+$color3: #3F4B59;
+$color4: #556273;
+$color5: #0D0D0D;
+$color6: white;
+$color7: black;
+$color8: purple;
+$color9: red;
+$color10: gray;
+
+// GREEN
+// $color1: #F5F3F1;
+// $color2: #F0EAD9;
+// $color3: #C0D8C5;
+// $color4: #3F8C7B;
+// $color5: #2A5655;
+// $color6: white;
+// $color7: black;
+// $color8: purple;
+// $color9: red;
+// $color10: gray;
+
+// 
+$bg: $color2;
+$border: $color5;
+$border-shadow: $color1;
+
+$navbar-background: $color2;
+$navbar-color: $color4;
+$navbar-color-light: $color1;
+$navbar-link: rgba($color1, $alpha-link);
+$navbar-link-hover: rgba($color1, $alpha-link-hover);
+$navbar-link-active: rgba($color1, $alpha-link-active);
+
+$top-header-background: $color1;
+$top-header-logo-text: $color3;
+$top-header-logo-text-hover: $color7;
+$top-header-border-top: rgba($color8, 1);
+
+$top-header-user-menu-dropdown-menu-li-hover: rgba($color1, $alpha-link-active);
+
+$page-header-background: $color3;
+$page-header-box-shadow: $color10;
+$page-header-page-name: $color8;
+
+$modal-backdrop: $color3;
+
+$form-divider: $color1;
+$form-errors: $color9;
+$form-message: $color9;
+$form-feedback: $color9;

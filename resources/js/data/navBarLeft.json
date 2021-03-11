@@ -1,0 +1,60 @@
+[
+    {
+        "name": "Dashboard",
+        "icon": "house-fill",
+        "order": 1,
+        "path": "/",
+        "pathName": "home",
+        "menuEntry": "router-link"
+    },
+    {
+        "name": "Users",
+        "icon": "person-lines-fill",
+        "order": 3,
+        "path": "#",
+        "pathName": "",
+        "menuEntry": "submenu-toggle",
+        "children": [
+            {
+                "name": "My profile",
+                "icon": "card-text",
+                "order": 1,
+                "path": "/my-profile",
+                "pathName": "my-profile",
+                "menuEntry": "router-link"
+            },
+            {
+                "name": "Access policies",
+                "icon": "ui-checks",
+                "order": 2,
+                "path": "/access",
+                "pathName": "access",
+                "menuEntry": "router-link"
+            },
+            {
+                "name": "All users",
+                "icon": "people-fill",
+                "order": 3,
+                "path": "/users",
+                "pathName": "users",
+                "menuEntry": "router-link"
+            }
+        ]
+    },
+    {
+        "name": "Monitors",
+        "icon": "bar-chart-line-fill",
+        "order": 4,
+        "path": "/monitors",
+        "pathName": "monitors",
+        "menuEntry": "router-link"
+    },
+    {
+        "name": "Tasks",
+        "icon": "list-task",
+        "order": 5,
+        "path": "/tasks",
+        "pathName": "tasks",
+        "menuEntry": "router-link"
+    }
+]

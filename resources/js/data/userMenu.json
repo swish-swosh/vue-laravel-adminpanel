@@ -1,0 +1,34 @@
+[
+    {
+        "name": "My profile",
+        "icon": "card-text",
+        "order": 1,
+        "path": "my-profile",
+        "pathName": "my-profile",
+        "menuEntry": "router-link"
+    },
+    {
+        "name": "Lock screen",
+        "icon": "lock-fill",
+        "order": 2,
+        "path": "",
+        "pathName": "lock",
+        "menuEntry": "nav-item-click"
+    },
+    {
+        "name": "",
+        "icon": "",
+        "order": 3,
+        "path": "",
+        "pathName": "",
+        "menuEntry": "nav-item-divider"
+    },
+    {
+        "name": "Logout",
+        "icon": "plug",
+        "order": 4,
+        "path": "",
+        "pathName": "logout",
+        "menuEntry": "nav-item-click"
+    }
+]
